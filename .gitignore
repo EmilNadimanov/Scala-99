@@ -1,1 +1,4 @@
 target/
+/.scalafmt.conf
+/.bsp/sbt.json
+.idea
