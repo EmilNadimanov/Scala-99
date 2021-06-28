@@ -14,7 +14,7 @@ class ProblemTest2 extends Specification {
       Problem2.penultimateOne(manyElements) mustEqual "Ho"
     }
 
-    "recursion that is recursively is used" in {
+    "recursion is used" in {
       Problem2.penultimateRec(empty) must throwA[NoSuchElementException]
       Problem2.penultimateRec(oneElement) must throwA[NoSuchElementException]
       Problem2.penultimateRec(manyElements) mustEqual "Ho"

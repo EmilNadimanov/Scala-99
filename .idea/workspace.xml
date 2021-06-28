@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d22a5ea9-c385-4634-9f0b-445f236f72ee" name="Default Changelist" comment="p01">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Problem2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/ProblemTest2.scala" afterDir="false" />
+    <list default="true" id="d22a5ea9-c385-4634-9f0b-445f236f72ee" name="Default Changelist" comment="p02">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Problem3.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/ProblemTest3.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/Hello-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Hello-build.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/Hello.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Hello.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Problem2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Problem2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/ProblemTest2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/ProblemTest2.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +47,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Scala Object" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -83,14 +86,14 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.42673522" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Specs2.ProblemTest2">
+  <component name="RunManager" selected="Specs2.ProblemTest4">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -132,8 +135,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProblemTest3" type="Specs2RunConfiguration" factoryName="Specs2" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="Hello" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Class" />
+      <option name="testClassPath" value="ProblemTest3" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProblemTest4" type="Specs2RunConfiguration" factoryName="Specs2" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="Hello" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Class" />
+      <option name="testClassPath" value="ProblemTest4" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Specs2.ProblemTest4" />
+        <item itemvalue="Specs2.ProblemTest3" />
         <item itemvalue="Specs2.ProblemTest2" />
         <item itemvalue="Specs2.ProblemTest1" />
       </list>
@@ -149,8 +182,16 @@
       <updated>1624723421233</updated>
       <workItem from="1624723425321" duration="667000" />
       <workItem from="1624724109641" duration="1941000" />
-      <workItem from="1624779649961" duration="4153000" />
+      <workItem from="1624779649961" duration="8516000" />
     </task>
+    <task id="LOCAL-00001" summary="p02">
+      <created>1624819214115</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624819214115</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,17 +211,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="p01" />
-    <option name="LAST_COMMIT_MESSAGE" value="p01" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/Problem2.scala</url>
-          <line>13</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="p02" />
+    <option name="LAST_COMMIT_MESSAGE" value="p02" />
   </component>
 </project>
