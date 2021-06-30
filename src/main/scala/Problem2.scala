@@ -13,17 +13,17 @@ object Problem2 {
     Try {
       list.dropRight(1).last
     } match {
-      case Success(elem) ⇒ elem
-      case Failure(_) ⇒ throw new NoSuchElementException
+      case Success(elem) => elem
+      case Failure(_) => throw new NoSuchElementException
     }
   }
 
   @tailrec
   def penultimateRec[T](list: List[T]): T = {
     list match {
-      case head :: _ :: Nil ⇒ head
-      case _ :: tail ⇒ penultimateRec(tail)
-      case _ ⇒ throw new NoSuchElementException
+      case head :: _ :: Nil => head
+      case _ :: tail => penultimateRec(tail)
+      case _ => throw new NoSuchElementException
     }
   }
 }

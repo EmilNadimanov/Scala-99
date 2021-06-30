@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d22a5ea9-c385-4634-9f0b-445f236f72ee" name="Default Changelist" comment="p02">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Problem3.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/ProblemTest3.scala" afterDir="false" />
+    <list default="true" id="d22a5ea9-c385-4634-9f0b-445f236f72ee" name="Default Changelist" comment="p07">
       <change beforePath="$PROJECT_DIR$/.idea/modules/Hello-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Hello-build.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/Hello.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Hello.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Problem2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Problem2.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/ProblemTest2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/ProblemTest2.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +31,28 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Hello" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Hello" type="f1a62948:ProjectNode" />
+                <item name="Hello" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Hello" type="f1a62948:ProjectNode" />
+                <item name="Hello" type="2d1252cf:ModuleNode" />
+                <item name="sbt tasks" type="d9357504:SbtViewContributor$SbtTasksGroupNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Hello" type="f1a62948:ProjectNode" />
+                <item name="Hello-build" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Hello" type="f1a62948:ProjectNode" />
+                <item name="Hello-build" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
             </expand>
             <select />
@@ -86,14 +104,14 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.42673522" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Specs2.ProblemTest4">
+  <component name="RunManager" selected="Specs2.ProblemTest8">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -103,48 +121,6 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProblemTest1" type="Specs2RunConfiguration" factoryName="Specs2" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="Hello" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="projectPathOnTarget" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="testKind" value="Class" />
-      <option name="testClassPath" value="ProblemTest1" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProblemTest2" type="Specs2RunConfiguration" factoryName="Specs2" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="Hello" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="projectPathOnTarget" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="testKind" value="Class" />
-      <option name="testClassPath" value="ProblemTest2" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProblemTest3" type="Specs2RunConfiguration" factoryName="Specs2" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <module name="Hello" />
-      <option name="allowRunningInParallel" value="false" />
-      <option name="projectPathOnTarget" />
-      <option name="selectedOptions">
-        <list />
-      </option>
-      <option name="testKind" value="Class" />
-      <option name="testClassPath" value="ProblemTest3" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -163,12 +139,79 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProblemTest5" type="Specs2RunConfiguration" factoryName="Specs2" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="Hello" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Class" />
+      <option name="testClassPath" value="ProblemTest5" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProblemTest6" type="Specs2RunConfiguration" factoryName="Specs2" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="Hello" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Class" />
+      <option name="testClassPath" value="ProblemTest6" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProblemTest7" type="Specs2RunConfiguration" factoryName="Specs2" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="Hello" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Class" />
+      <option name="testClassPath" value="ProblemTest7" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProblemTest8" type="Specs2RunConfiguration" factoryName="Specs2" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="Hello" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Class" />
+      <option name="programParameters" value="-deprecation" />
+      <option name="shortenClasspath" value="NONE" />
+      <option name="testArgs" value="-deprecation" />
+      <option name="testClassPath" value="ProblemTest8" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Specs2.ProblemTest4" />
+      <item itemvalue="Specs2.ProblemTest5" />
+      <item itemvalue="Specs2.ProblemTest6" />
+      <item itemvalue="Specs2.ProblemTest7" />
+      <item itemvalue="Specs2.ProblemTest8" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Specs2.ProblemTest8" />
+        <item itemvalue="Specs2.ProblemTest7" />
+        <item itemvalue="Specs2.ProblemTest6" />
+        <item itemvalue="Specs2.ProblemTest5" />
         <item itemvalue="Specs2.ProblemTest4" />
-        <item itemvalue="Specs2.ProblemTest3" />
-        <item itemvalue="Specs2.ProblemTest2" />
-        <item itemvalue="Specs2.ProblemTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +225,7 @@
       <updated>1624723421233</updated>
       <workItem from="1624723425321" duration="667000" />
       <workItem from="1624724109641" duration="1941000" />
-      <workItem from="1624779649961" duration="8516000" />
+      <workItem from="1624779649961" duration="17941000" />
     </task>
     <task id="LOCAL-00001" summary="p02">
       <created>1624819214115</created>
@@ -191,7 +234,42 @@
       <option name="project" value="LOCAL" />
       <updated>1624819214115</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="p03">
+      <created>1624907338878</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1624907338878</updated>
+    </task>
+    <task id="LOCAL-00003" summary="p04">
+      <created>1624907353151</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624907353151</updated>
+    </task>
+    <task id="LOCAL-00004" summary="p05">
+      <created>1624909059947</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1624909059947</updated>
+    </task>
+    <task id="LOCAL-00005" summary="p06">
+      <created>1624909973088</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1624909973088</updated>
+    </task>
+    <task id="LOCAL-00006" summary="p07">
+      <created>1625001246031</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1625001246031</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +290,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="p01" />
     <MESSAGE value="p02" />
-    <option name="LAST_COMMIT_MESSAGE" value="p02" />
+    <MESSAGE value="p03" />
+    <MESSAGE value="p04" />
+    <MESSAGE value="p05" />
+    <MESSAGE value="p06" />
+    <MESSAGE value="p07" />
+    <option name="LAST_COMMIT_MESSAGE" value="p07" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -7,8 +7,8 @@
 object Problem7 {
   def flatten(list: List[Any]): List[Any] = {
     list.flatMap {
-      case yal: List[Any] ⇒ flatten(yal)
-      case v ⇒ List(v)
+      case yal: List[Any] => flatten(yal)
+      case v => List(v)
     }
   }
 }

@@ -20,16 +20,16 @@ object Problem4 {
     @tailrec
     def iterate(list: List[T], step: Int): Int = {
       list match {
-        case Nil ⇒ 0
-        case h :: Nil ⇒ step + 1
-        case h :: tail ⇒ iterate(tail, step + 1)
+        case Nil => 0
+        case h :: Nil => step + 1
+        case h :: tail => iterate(tail, step + 1)
       }
     }
     iterate(list, 0)
   }
 
   def lengthFuncy[T](list: List[T]): Int = {
-    list.foldLeft(0) { (acc, _) ⇒
+    list.foldLeft(0) { (acc, _) =>
       acc + 1
     }
   }

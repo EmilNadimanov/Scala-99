@@ -13,7 +13,7 @@ object Problem5 {
   }
 
   def reverseFoldRight[T](list: List[T]): List[T] = {
-    list.foldRight(List.empty[T])((m, n) ⇒ n :+ m)
+    list.foldRight(List.empty[T])((m, n) => n :+ m)
   }
 
   def reverseFoldLeft[T](list: List[T]): List[T] = {
@@ -22,9 +22,9 @@ object Problem5 {
 
   def reverseRec[T](list: List[T]): List[T] = {
     list match {
-      case Nil ⇒ List.empty[T]
-      case h :: Nil ⇒ List(h)
-      case h :: tail ⇒ reverseRec(tail) :+ h
+      case Nil => List.empty[T]
+      case h :: Nil => List(h)
+      case h :: tail => reverseRec(tail) :+ h
     }
   }
 
@@ -32,8 +32,8 @@ object Problem5 {
     @tailrec
     def traverse(acc: List[T], residual: List[T]): List[T] =
       residual match {
-        case Nil ⇒ acc
-        case h :: tail ⇒ traverse(h +: acc, tail)
+        case Nil => acc
+        case h :: tail => traverse(h +: acc, tail)
       }
     traverse(List.empty[T], list)
   }

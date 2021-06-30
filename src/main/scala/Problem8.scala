@@ -13,7 +13,7 @@ object Problem8 {
   def accumulator[T](list: List[T]): List[T] = {
     if (list.nonEmpty) {
       val acc: ListBuffer[T] = ListBuffer.empty[T]
-      list.foreach(elem ⇒
+      list.foreach(elem =>
         if (acc.isEmpty || elem != acc.last) {
           acc.addOne(elem)
         }
@@ -26,15 +26,15 @@ object Problem8 {
     @tailrec
     def tailRec(remains: List[T], accum: List[T]): List[T] = {
       remains match {
-        case h :: tail ⇒ tailRec(tail.dropWhile(_ == h), accum :+ h)
-        case Nil ⇒ accum
+        case h :: tail => tailRec(tail.dropWhile(_ == h), accum :+ h)
+        case Nil => accum
       }
     }
     tailRec(list, List.empty[T])
   }
 
   def funcy[T](list: List[T]): List[T] = {
-    list.foldLeft(List.empty[T]) { (acc, el) ⇒
+    list.foldLeft(List.empty[T]) { (acc, el) =>
       if (acc.isEmpty || el != acc.last) acc :+ el else acc
     }
   }

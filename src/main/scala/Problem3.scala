@@ -14,17 +14,17 @@ object Problem3 {
     Try {
       list(n)
     } match {
-      case Success(elem) ⇒ elem
-      case Failure(_) ⇒ throw new NoSuchElementException
+      case Success(elem) => elem
+      case Failure(_) => throw new NoSuchElementException
     }
   }
 
   @tailrec
   def findNthRecursively[T](list: List[T], n: Int): T = {
     (n, list) match {
-      case (0, list) ⇒ list.head
-      case (n, list) ⇒ findNthRecursively(list.tail, n - 1)
-      case _ ⇒ throw new NoSuchElementException
+      case (0, list) => list.head
+      case (n, list) => findNthRecursively(list.tail, n - 1)
+      case _ => throw new NoSuchElementException
     }
   }
 }
